@@ -26,7 +26,7 @@ $STD apt-get install -y \
   zlib1g-dev
 msg_ok "Installed Dependencies"
 
-PG_VERSION="16" install_postgresql
+PG_VERSION="17" install_postgresql
 
 msg_info "Installing Python"
 $STD apt-get install -y \
@@ -51,7 +51,7 @@ $STD sudo -u postgres psql -c "CREATE DATABASE $DB_NAME WITH OWNER $DB_USER TEMP
 msg_ok "Set up PostgreSQL"
 
 msg_info "Installing NetBox (Patience)"
-cd /opt
+cd /opt || exit
 RELEASE=$(curl -fsSL https://api.github.com/repos/netbox-community/netbox/releases/latest | grep "tag_name" | awk '{print substr($2, 3, length($2)-4) }')
 curl -fsSL "https://github.com/netbox-community/netbox/archive/refs/tags/v${RELEASE}.zip" -o $(basename "https://github.com/netbox-community/netbox/archive/refs/tags/v${RELEASE}.zip")
 unzip -q "v${RELEASE}.zip"
