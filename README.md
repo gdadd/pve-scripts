@@ -69,38 +69,6 @@ To install the Proxmox Helper Scripts, follow these steps:
 
 ---
 
-## ❤️ Community and Contributions
-
-We appreciate any contributions to the project—whether it's bug reports, feature requests, documentation improvements, or spreading the word. Your involvement helps keep the project alive and sustainable.
-
-## 💖 Donate to Support the Project
-- **Ko-Fi for Community Edition**: [Donate to support this project](https://ko-fi.com/community_scripts) – Donations go towards maintaining the project, testing infrastructure, and charity (cancer research, hospice care). 30% of the funds will be donated to charity.
-
----
-
-## 💬 Get Help
-
-Join our community for support:
-
-- **Discord**: Join our [Proxmox Helper Scripts Discord server](https://discord.gg/jsYVk5JBxq) for real-time support.
-- **GitHub Discussions**: [Ask questions or report issues](https://github.com/community-scripts/ProxmoxVE/discussions).
-
-## 🤝 Report a Bug or Feature Request
-
-If you encounter any issues or have suggestions for improvement, file a new issue on our [GitHub issues page](https://github.com/community-scripts/ProxmoxVE/issues). You can also submit pull requests with solutions or enhancements!
-
----
-
-## ⭐ Star History
-
-<a href="https://star-history.com/#community-scripts/ProxmoxVE&Date">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=community-scripts/ProxmoxVE&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=community-scripts/ProxmoxVE&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=community-scripts/ProxmoxVE&type=Date" />
- </picture>
-</a>
-
 ## 📜 License
 
 This project is licensed under the [MIT License](LICENSE).
