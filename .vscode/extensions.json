@@ -1,9 +1,7 @@
 {
   "recommendations": [
     "bmalehorn.shell-syntax",
-    "timonwong.shellcheck",
-    "foxundermoon.shell-format",
-    "editorconfig.editorconfig"
+    "timonwong.shellcheck"
   ],
   "unwantedRecommendations": []
 }
