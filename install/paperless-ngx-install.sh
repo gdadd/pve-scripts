@@ -20,7 +20,6 @@ $STD apt-get install -y \
   imagemagick \
   fonts-liberation \
   optipng \
-  gnupg \
   libpq-dev \
   libmagic-dev \
   mime-support \
@@ -60,7 +59,7 @@ $STD apt-get install -y \
   tesseract-ocr-eng
 
 cd /tmp
-curl -fsSL "https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs10040/ghostscript-10.04.0.tar.gz" -o $(basename "https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs10040/ghostscript-10.04.0.tar.gz")
+curl -fsSL "https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs10040/ghostscript-10.04.0.tar.gz" -o "ghostscript-10.04.0.tar.gz"
 $STD tar -xzf ghostscript-10.04.0.tar.gz
 cd ghostscript-10.04.0
 $STD ./configure

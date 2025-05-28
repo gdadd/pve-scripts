@@ -14,6 +14,35 @@ Exercise vigilance regarding copycat or coat-tailing sites that seek to exploit 
 All LXC instances created using this repository come pre-installed with Midnight Commander, which is a command-line tool (`mc`) that offers a user-friendly file and directory management interface for the terminal environment.
 
 
+## 2025-05-28
+
+### 🆕 New Scripts
+
+  - Umbrel-OS [@MickLesk](https://github.com/MickLesk) ([#4788](https://github.com/community-scripts/ProxmoxVE/pull/4788))
+- refactor: use binary and randomize credentials in tinyauth [@steveiliop56](https://github.com/steveiliop56) ([#4632](https://github.com/community-scripts/ProxmoxVE/pull/4632))
+- oauth2-proxy ([#4784](https://github.com/community-scripts/ProxmoxVE/pull/4784))
+
+### 🚀 Updated Scripts
+
+  - #### 🐞 Bug Fixes
+
+    - Habitica: Use Node20 [@MickLesk](https://github.com/MickLesk) ([#4796](https://github.com/community-scripts/ProxmoxVE/pull/4796))
+    - Alpine-Node-RED: add service to rc [@MickLesk](https://github.com/MickLesk) ([#4783](https://github.com/community-scripts/ProxmoxVE/pull/4783))
+
+  - #### ✨ New Features
+
+    - Pulse: use prebuild tarball file / remove unneeded npm actions [@MickLesk](https://github.com/MickLesk) ([#4776](https://github.com/community-scripts/ProxmoxVE/pull/4776))
+
+  - #### 💥 Breaking Changes
+
+    - Refactor: Linkwarden + OS Upgrade [@MickLesk](https://github.com/MickLesk) ([#4756](https://github.com/community-scripts/ProxmoxVE/pull/4756))
+
+  - #### 🔧 Refactor
+
+    - MariaDB CLI Update, Go Install Helper & Minor Cleanup [@MickLesk](https://github.com/MickLesk) ([#4793](https://github.com/community-scripts/ProxmoxVE/pull/4793))
+    - Refactor: Remove redundant dependencies & unify unzip usage [@MickLesk](https://github.com/MickLesk) ([#4780](https://github.com/community-scripts/ProxmoxVE/pull/4780))
+    - Refactor: Remove gpg / gnupg from script base [@MickLesk](https://github.com/MickLesk) ([#4775](https://github.com/community-scripts/ProxmoxVE/pull/4775))
+
 ## 2025-05-27
 
 ### 🆕 New Scripts
