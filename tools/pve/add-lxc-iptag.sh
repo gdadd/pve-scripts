@@ -132,10 +132,12 @@ if [[ ! -f /opt/lxc-iptag/iptag.conf ]]; then
 
 # List of allowed CIDRs
 CIDR_LIST=(
-  192.168.0.0/16
-  172.16.0.0/12
-  10.0.0.0/8
-  100.64.0.0/10
+#  192.168.0.0/16
+#  172.16.0.0/12
+#  10.0.0.0/8
+#  100.64.0.0/10
+  128.16.0.0/24
+  172.16.0.0/24
 )
 
 # Interval settings (in seconds)
